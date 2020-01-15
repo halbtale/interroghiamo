@@ -9,3 +9,5 @@ function generaAlunnoCasuale() {
 }
 
 btn.addEventListener('click', generaAlunnoCasuale);
+
+console.log('ciao');
