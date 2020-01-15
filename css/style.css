@@ -1,0 +1,57 @@
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.content {
+    margin: 10vh 11vw;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.input {
+    display: block;
+    padding: 8px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 0.8em;
+    border-radius: 1px;
+    border: none;
+    width: 150px;
+    background-color: #ff3547;
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: all 0.1s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.input:focus,
+.btn:focus {
+    outline: none;
+}
+
+.result {
+    margin-top: 50px;
+    color: black;
+    background-color: white;
+    padding: 10px 50px;
+}
